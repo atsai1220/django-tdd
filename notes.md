@@ -41,3 +41,5 @@
 - Ensures tests work
 - Increases test coverage
 - Encourages quality code
+
+### 7 Configure Django custom user model
