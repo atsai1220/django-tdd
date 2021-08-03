@@ -60,7 +60,7 @@ class ModelTests(TestCase):
             name='Cucumber',
         )
         self.assertEqual(str(ingredient), ingredient.name)
-    
+
     def test_recipe_str(self):
         """Test the recipe string representation"""
         recipe = models.Recipe.objects.create(
