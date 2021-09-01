@@ -61,7 +61,7 @@ class Ingredient(models.Model):
     """Ingredient to be used in a recipe"""
     name = models.CharField(max_length=255)
     user = models.ForeignKey(
-        settings.AUTH_USER_MODEL,
+        settings.AUTH_USER_MODEL,   
         on_delete=models.CASCADE
     )
 
